@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_component_cards",
+  "info": {
+    "displayName": "Card",
+    "icon": "window-maximize",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Head": {
+      "type": "string"
+    },
+    "Desc": {
+      "type": "text"
+    },
+    "Images": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

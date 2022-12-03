@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_component_sliders",
+  "info": {
+    "displayName": "Slider",
+    "icon": "box"
+  },
+  "options": {},
+  "attributes": {
+    "Label": {
+      "type": "string"
+    }
+  }
+}

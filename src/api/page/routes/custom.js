@@ -1,0 +1,12 @@
+module.exports={
+    routes:[
+        {
+            method:'GET',
+            path:'/pages/:Path',
+            handler:'page.findOne',
+            config:{
+                auth:false,
+            }
+        }
+    ]
+}
