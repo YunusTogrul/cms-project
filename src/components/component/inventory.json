@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_component_inventories",
+  "info": {
+    "displayName": "Inventory",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Photo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Name": {
+      "type": "string"
+    },
+    "Icon": {
+      "type": "string"
+    }
+  }
+}

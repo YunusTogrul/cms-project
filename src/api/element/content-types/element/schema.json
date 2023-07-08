@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "elements",
+  "info": {
+    "singularName": "element",
+    "pluralName": "elements",
+    "displayName": "Element"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Icon": {
+      "type": "string"
+    }
+  }
+}
