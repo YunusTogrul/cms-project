@@ -4,7 +4,8 @@
   "info": {
     "singularName": "apartment",
     "pluralName": "apartments",
-    "displayName": "Apartment"
+    "displayName": "Apartment",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -14,27 +15,28 @@
     "Address": {
       "type": "string"
     },
-    "Floor": {
-      "type": "string"
-    },
-    "DoorNumber": {
-      "type": "string"
-    },
     "Photo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "Inventory": {
       "type": "dynamiczone",
       "components": [
         "component.inventory"
       ]
+    },
+    "Floor": {
+      "type": "integer"
+    },
+    "DoorNumber": {
+      "type": "integer"
     }
   }
 }
